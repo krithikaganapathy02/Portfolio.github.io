@@ -1,10 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krithika's Portfolio</title>
     <link rel="stylesheet" href="mystylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1>Krithika's Portfolio</h1>
-<p>kikikikii</p>
+
+    <header>
+        <nav>
+            <div class="logo">Krithika's Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#technical">Technical Work</a></li>
+                <li><a href="#creative">Creative Work</a></li>
+                <li><a href="#interpretive">Interpretive Work</a></li>
+                <li><a href="#contact" class="btn-nav">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="hero-section">
+        <div class="container">
+            <h1>Krithika Ganapathy</h1>
+            <h2>Researcher</h2>
+            <p class="hero-bio">Portfolio for PhD in Computational Media</p>
+            <div class="research-focus">
+                Focused on the intersection of technical systems and human interpretation.
+            </div>
+            <br>
+            <a href="#technical" class="btn btn-primary">View Technical Work</a>
+        </div>
+    </section>
+
+    <section id="technical" class="section-pad">
+        <div class="container">
+            <h2 class="section-title">Technical Work</h2>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3>Undergrad Thesis</h3>
+                    <span class="tag tag-technical">Technical</span>
+                    <span class="tag tag-creative">Creative</span>
+                </div>
+                <p class="meta">Year: 202X | Role: Lead Researcher</p>
+                <p>An exploration of [Topic]. This project combines technical implementation with creative expression.</p>
+                
+                <div class="video-container">
+                    <p><em>[Video Placeholder: Put your .mp4 file here later]</em></p>
+                    </div>
+                
+                <div class="card-actions">
+                    <a href="#" class="btn btn-secondary">Open PDF Document</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>Present Industry Role</h3>
+                    <span class="tag tag-technical">Technical</span>
+                </div>
+                <p class="meta">Present | Role: [Your Role]</p>
+                <p>Description of your current work in the industry, focusing on technical achievements and research methodologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="creative" class="section-pad">
+        <div class="container">
+            <h2 class="section-title">Creative Work</h2>
+
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>The Hindu</h3>
+                        <span class="tag tag-creative">Creative</span>
+                    </div>
+                    <p>Journalistic and creative contributions.</p>
+                    <a href="#" class="btn-text">Read Article &rarr;</a>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>The Times of India</h3>
+                        <span class="tag tag-creative">Creative</span>
+                    </div>
+                    <p>Featured publications and articles.</p>
+                    <a href="#" class="btn-text">Read Article &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interpretive" class="section-pad">
+        <div class="container">
+            <h2 class="section-title">Interpretive Work</h2>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>Master's Thesis</h3>
+                    <span class="tag tag-interpretive">Interpretive</span>
+                </div>
+                <p class="meta">MSc Research</p>
+                <p>Thematic analysis regarding [Subject]. Explore the grid below.</p>
+                
+                <div class="interactive-grid-placeholder">
+                    <div class="grid-item">Theme A</div>
+                    <div class="grid-item">Theme B</div>
+                    <div class="grid-item">Theme C</div>
+                    <div class="grid-item">Theme D</div>
+                </div>
+
+                <div class="card-actions">
+                    <a href="#" class="btn btn-secondary">Read Full Thesis (PDF)</a>
+                </div>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Changemakers Research Poster</h3>
+                        <span class="tag tag-interpretive">Interpretive</span>
+                    </div>
+                    <a href="#" class="btn-text">View External Poster &rarr;</a>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <h3>MSc Essays</h3>
+                        <span class="tag tag-interpretive">Interpretive</span>
+                    </div>
+                    <p>Selected essays on computational media theory.</p>
+                    <a href="#" class="btn-text">Download Essay 1 (PDF)</a><br>
+                    <a href="#" class="btn-text">Download Essay 2 (PDF)</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-pad contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p>I am available for research collaborations and discussions.</p>
+            <a href="mailto:your.email@example.com" class="btn btn-primary">Email Me</a>
+            <a href="#" class="btn btn-secondary">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Krithika Ganapathy</p>
+    </footer>
+
 </body>
 </html>
